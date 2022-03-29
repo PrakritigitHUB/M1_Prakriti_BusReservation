@@ -25,4 +25,12 @@
 
 
 # WHAT
-* 
+* This Bus Reservation System is an online application that helps to maintain a database that is useful for booking bus tickets and maintaining records of reservation information .
+
+
+# WHEN
+* This Bus Rservation System is very useful when there are large no of passengers to book bus tickets. It is very a tedious process to deal with this huge crowd manually. Also people who are unable to reach manually to the counters will be benefitted by this system. In such cases, this project becomes useful.
+
+
+# WHERE
+* The Bus Reservation System is nowadays essential for everyone who has to travel around throgh bus, may it be nearby place or distant one. They can use this system for the purpose of booking seats in buses and also cancellation if needed through online mode even.

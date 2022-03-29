@@ -34,3 +34,12 @@
 
 # WHERE
 * The Bus Reservation System is nowadays essential for everyone who has to travel around throgh bus, may it be nearby place or distant one. They can use this system for the purpose of booking seats in buses and also cancellation if needed through online mode even.
+
+
+# HOW
+* This project is implemented for booking bus tickets, checking on reservation status, get bus information, and also cancellation facility is enabled in this project.
+
+
+
+# SWOT ANALYSIS
+

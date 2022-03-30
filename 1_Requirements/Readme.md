@@ -42,4 +42,20 @@
 
 
 # SWOT ANALYSIS
+# STRENGTHS
+* Simple & Easy to Use.
+* Highly Secure, Scalable & Reliable.
+* Mobile Access.
+
+
+# WEAKNESS
+*  Online Systems require high-speed internet connectivity.
+*  Risk of computer virus.
+*  The data stored is prone to cyber hacks.
+
+
+# High Level Requirements
+| ID | REQUIREMENTS |
+|-------------------|
+
 

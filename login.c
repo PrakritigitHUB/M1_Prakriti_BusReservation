@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include "colors.c"
 
 void loginCred()
 {
@@ -8,11 +7,9 @@ void loginCred()
   char passMatch[10];
   char userMatch[10];
   int value;
-  colorRed();
   printf("\n\n=========================================================================================\n");
   printf("\n\t\t\tWELCOME TO ONLINE BUS RESERVATION");
   printf("\n\n=========================================================================================\n\n");
-  colorReset();
 loginCred:
 {
   printf("\n\nusername: ");
@@ -25,9 +22,7 @@ loginCred:
   value = strcmp(password, passMatch); /// string compare is function defined in headerfile i.e string.h
   if (value != 0)
   {
-    colorRed();
     printf("\nINVALID USERNAME/ PASSWORD TRY AGAIN...\n");
-    colorReset();
     goto loginCred;
   }
   else

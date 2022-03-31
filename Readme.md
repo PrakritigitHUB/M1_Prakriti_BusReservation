@@ -1,8 +1,7 @@
 # Bus Reservation System with c language
 
 ## Building & running
-> `gcc -g main.c -o run.exe`  
-> `run.exe`  
+> `make all`  
 
 ## HERE ARE FEW SNAPSHOTS OF OUTPUTS
 

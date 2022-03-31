@@ -54,19 +54,19 @@
 *  The data stored is prone to cyber hacks.
 
 
-# High Level Requirements
-*  | ID   | REQUIREMENTS      |
-*  | HLRQ1| C LANGUAGE        |
-*  | HLRQ2| WINDOWS OS        |
-*  | HLRQ3| LINUX OS          |
-*  | HLRQ4| CODE ANALYSIS     |
-*  | HLRQ5| CODE DOCUMENTATION|
+# High Level Requirements  
+
+*   HLRQ1  | C LANGUAGE        
+*   HLRQ2  | WINDOWS OS       
+*   HLRQ3  | LINUX OS         
+*   HLRQ4  | CODE ANALYSIS  
+*   HLRQ5  | CODE DOCUMENTATION
 
 
 # Low level Documentation
-* | ID   | REQUIREMENTS |
-* |LLRQ1 | Booking      |
-* |LLRQ2 | Cancellation |
-* |LLRQ3 | Storing data |
-* |LLRQ4 | Ease Opertion|
+
+* LLRQ1 | Booking      
+* LLRQ2 | Cancellation 
+* LLRQ3 | Storing data 
+* LLRQ4 | Ease Opertion
 

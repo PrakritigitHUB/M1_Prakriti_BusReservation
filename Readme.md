@@ -1,4 +1,4 @@
-# Bus Reservation System with c language
+# Bus Reservation System using c language
 
 ## Building & running
 > `gcc -g main.c -o run.exe`  

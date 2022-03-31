@@ -55,20 +55,18 @@
 
 
 # High Level Requirements
-*  | ID | REQUIREMENTS |
-*  |---------------------|
-*  | HLRQ1| C LANGUAGE   |
-*  | HLRQ2| WINDOWS OS   |
-*  | HLRQ3| LINUX OS     |
-*  | HLRQ4| CODE ANALYSIS|
+*  | ID | REQUIREMENTS        |
+*  | HLRQ1| C LANGUAGE        |
+*  | HLRQ2| WINDOWS OS        |
+*  | HLRQ3| LINUX OS          |
+*  | HLRQ4| CODE ANALYSIS     |
 *  | HLRQ5| CODE DOCUMENTATION|
 
 
 # Low level Documentation
-* | ID| REQUIREMENTS|
-* |---------------------|
-* |LLRQ1| Booking|
-* |LLRQ1| Cancellation|
-* |LLRQ2| Storing data|
-* |LLRQ3| Ease Opertion||
+* | ID  | REQUIREMENTS |
+* |LLRQ1| Booking      |
+* |LLRQ1| Cancellation |
+* |LLRQ2| Storing data |
+* |LLRQ3| Ease Opertion|
 

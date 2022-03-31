@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.7"/>
+    <errors>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="login.c">
+            <location file="login.c" line="16"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="login.c">
+            <location file="login.c" line="19"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;i&amp;gt;0&amp;#039; is always true" verbose="Condition &amp;#039;i&amp;gt;0&amp;#039; is always true" cwe="571" file0="Main.c">
+            <location file="utils.h" line="35"/>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &amp;#039;bus&amp;#039; can be declared with const" verbose="Parameter &amp;#039;bus&amp;#039; can be declared with const" cwe="398" file0="Main.c">
+            <location file="utils.h" line="30"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: getCost" verbose="Unused variable: getCost" cwe="563" file0="Main.c">
+            <location file="utils.h" line="10"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="Main.c">
+            <location file="bookings.h" line="55"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="Main.c">
+            <location file="bookings.h" line="104"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;*r==NULL&amp;#039; is redundant or there is possible null pointer dereference: *r." verbose="Either the condition &amp;#039;*r==NULL&amp;#039; is redundant or there is possible null pointer dereference: *r." cwe="476" file0="Main.c">
+            <location file="bookings.h" line="45" info="Null pointer dereference"/>
+            <location file="bookings.h" line="46" info="Assuming that condition &amp;#039;*r==NULL&amp;#039; is not redundant"/>
+        </error>
+        <error id="unusedLabel" severity="style" msg="Label &amp;#039;main&amp;#039; is not used." verbose="Label &amp;#039;main&amp;#039; is not used." cwe="398" file0="Main.c">
+            <location file="Main.c" line="21"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &amp;#039;i&amp;#039; shadows outer variable" verbose="Local variable &amp;#039;i&amp;#039; shadows outer variable" cwe="398" file0="Main.c">
+            <location file="Main.c" line="84" info="Shadow variable"/>
+            <location file="Main.c" line="18" info="Shadowed declaration"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="Main.c">
+            <location file="Main.c" line="18"/>
+        </error>
+    </errors>
+</results>

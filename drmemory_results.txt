@@ -1,0 +1,80 @@
+Dr. Memory version 2.3.0 build 1 built on Feb  6 2020 06:09:03
+Windows version: WinVer=105;Rel=2009;Build=19043;Edition=Core
+Dr. Memory results for pid 10932: "run.exe"
+Application cmdline: "F:\busReservation\run.exe"
+Recorded 118 suppression(s) from default C:\Program Files (x86)\Dr. Memory\bin\suppress-default.txt
+
+Error #1: UNINITIALIZED READ: reading register eax
+# 0 KERNELBASE.dll!FindNextFileW 
+# 1 KERNELBASE.dll!FindNextFileA 
+# 2 .text                              [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 3 __mingw_glob                       [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 4 _setargv
+# 5 .text  
+# 6 mainCRTStartup
+# 7 ntdll.dll!__RtlUserThreadStart
+Note: @0:00:02.134 in thread 11528
+Note: instruction: cmp    %eax $0x00000018
+
+Error #2: UNINITIALIZED READ: reading register eax
+# 0 KERNELBASE.dll!FindNextFileW 
+# 1 KERNELBASE.dll!FindNextFileA 
+# 2 .text                              [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 3 __mingw_glob                       [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 4 _setargv
+# 5 .text  
+# 6 mainCRTStartup
+# 7 ntdll.dll!__RtlUserThreadStart
+Note: @0:00:02.136 in thread 11528
+Note: instruction: data16 mov    %cx -> 0x00000234(%esi,%eax,2)
+
+Error #3: UNINITIALIZED READ: reading register eax
+# 0 KERNELBASE.dll!FindNextFileW 
+# 1 KERNELBASE.dll!FindNextFileA 
+# 2 .text                              [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 3 __mingw_glob                       [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 4 _setargv
+# 5 .text  
+# 6 mainCRTStartup
+# 7 ntdll.dll!__RtlUserThreadStart
+Note: @0:00:02.147 in thread 11528
+Note: instruction: test   %eax %eax
+
+Error #4: UNINITIALIZED READ: reading register eax
+# 0 ntdll.dll!RtlUnicodeToMultiByteN
+# 1 ntdll.dll!RtlUnicodeStringToAnsiString
+# 2 KERNELBASE.dll!FindNextFileA 
+# 3 .text                                      [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 4 __mingw_glob                               [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 5 _setargv
+# 6 .text  
+# 7 mainCRTStartup
+# 8 ntdll.dll!__RtlUserThreadStart
+Note: @0:00:02.148 in thread 11528
+Note: instruction: mov    (%eax,%esi) -> %al
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+	Error #   1:     18
+	Error #   2:     18
+	Error #   4:      2
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      4 unique,    39 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+ERRORS IGNORED:
+      1 potential error(s) (suspected false positives)
+         (details: C:\Users\Prakriti Aloo\AppData\Roaming\Dr. Memory\DrMemory-run.exe.10932.000\potential_errors.txt)
+     19 unique,    19 total,   5808 byte(s) of still-reachable allocation(s)
+         (re-run with "-show_reachable" for details)
+Details: C:\Users\Prakriti Aloo\AppData\Roaming\Dr. Memory\DrMemory-run.exe.10932.000\results.txt
